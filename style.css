@@ -1,0 +1,65 @@
+body, ul{
+      margin: 0;
+      padding:0;
+}
+.navbar{
+    background-color: #9f8d8d;
+}
+.navbar img{
+    margin-left: 70px; 
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    margin-right: 130px;
+}
+.navbar li{
+    margin-right: 15px;
+}
+.navbar a {
+    color: white; /* Text color of the links */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px; /* Add padding around the links */
+}
+a:hover {
+    background-color: rgb(36, 36, 38); /* Change background color on hover */
+}
+.container{
+       position: relative;
+       background-color: rgb(196, 147, 175);
+}
+.corner-image {
+    position: fixed;
+    top: 0;
+    right: 100px;
+    width: 100px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  .description {
+    position: absolute;
+    top: 20px; /* Adjust vertical position as needed */
+    left: 400px; /* Adjust horizontal position as needed */
+  }
+.description h4{
+    margin-left: 50px;
+}
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .social-icons li {
+    display: inline-block;
+    margin-right: 10px; /* Adjust this value to change the gap between icons */
+  }
+
+  .social-icons li:last-child {
+    margin-right: 0; /* Remove margin from the last icon */
+  }
+
+  .social-icons li img {
+    width: 30px; /* Adjust icon size as needed */
+    height: auto;
+  }
